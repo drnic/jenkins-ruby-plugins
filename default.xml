@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch=".." />
+
+  <default revision="refs/heads/master"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
+
+  <project path="git://github.com/jenkinsci/pathignore-plugin" />
+  <project path="git://github.com/jenkinsci/rvm-plugin" />
+  <project path="git://github.com/rtyler/vagrant-plugin" />
+  <project path="git://github.com/swipely/jenkins-git-notes-plugin" />
+  <project path="git://github.com/jenkinsci/yammer-plugin" />
+  <project path="git://github.com/lloydwatkin/buddycloud-for-jenkins" />
+  <project path="git://github.com/jenkinsci/gitlab-hook-plugin" />
+
+</manifest>
