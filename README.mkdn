@@ -1,0 +1,22 @@
+Jenkins Ruby Plugins
+====================
+
+Getting Started
+------
+
+To get started with Jenkins Ruby Plugins, you'll need to get
+familiar with [Git and Repo](http://source.android.com/download/using-repo).
+
+To initialize your local repository using the Jenkins Ruby plugins, use a command like this:
+
+    repo init -u git://github.com/ccosby/jenkins-ruby-plugins.git -b master
+
+Then to sync up:
+
+    repo sync
+
+Why?
+------
+
+This is just a really simple way to get all of the Jenkins Ruby plugins into
+a central location. It doesn't offer much other than that.
