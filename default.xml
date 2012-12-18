@@ -9,6 +9,9 @@
            sync-c="true"
            sync-j="4" />
 
+  <project path="repo" name="ccosby/jenkins-ruby-plugins">
+    <copyfile src=".rvmrc" dest=".rvmrc"/>
+  </project>
   <project path="buddycloud-for-jenkins" name="lloydwatkin/buddycloud-for-jenkins" />
   <project path="gitlab-hook-plugin" name="jenkinsci/gitlab-hook-plugin" />
   <project path="jenkins-git-notes-plugin" name="swipely/jenkins-git-notes-plugin" />
