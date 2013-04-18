@@ -7,6 +7,11 @@ Getting Started
 To get started with Jenkins Ruby Plugins, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/version-control.html).
 
+To install on OS/X with Homebrew:
+
+    brew install repo
+    brew install gpg
+
 To initialize your local repository using the Jenkins Ruby plugins, use a command like this:
 
     repo init -u git://github.com/ccosby/jenkins-ruby-plugins.git -b master
