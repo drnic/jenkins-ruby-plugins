@@ -1,0 +1,9 @@
+.repo/
+buddycloud-for-jenkins/
+gitlab-hook-plugin/
+jenkins-git-notes-plugin/
+pathignore-plugin/
+repo/
+rvm-plugin/
+vagrant-plugin/
+yammer-plugin/
